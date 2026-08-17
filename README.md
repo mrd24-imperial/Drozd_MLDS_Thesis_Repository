@@ -1,11 +1,11 @@
-This repository contains the code I have used to generate the results for my thesis. The environment can be set up using the following steps. I have set the environment up in a conda environment. In order to reproduce this the user may want to change the environment name or directory path in the following steps.
+This repository contains the code I have used to generate the results for my thesis. The environment can be set up using the following steps. I have set the environment up in a conda environment. When reproducing this the user may want to change the environment name or directory path in the following steps.
 
 First an environment is set up with python version 3.10.
 ```
 conda create -n test_environment python=3.10
 ```
 
-After activating the environment, we assure that pip is at an appropriate version not to cause an issue with the requirements.
+After activating the environment, we assure that pip is at an appropriate version to not cause an issue with incompatibility when installing the requirements.
 
 ```
 conda activate test_environment
@@ -30,7 +30,7 @@ When using this code you may cite my Master's thesis in the following way:
 
 ```
 @mastersthesis{Drozd2026,
-  title        = {XXX},
+  title        = {Exploring Epidemic Control Policy Spaces with MAP-Elites Quality-Diversity Optimization},
   author       = {Maximilian Roy Drozd},
   year         = 2026,
   month        = {August},
